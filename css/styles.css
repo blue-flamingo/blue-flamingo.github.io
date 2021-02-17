@@ -1,5 +1,5 @@
 body {
-  /* margin: 40px; */
+  margin: 20px;
   text-align: center;
   background-color: green;
 }
@@ -157,18 +157,18 @@ prebaciti na .grid */
 
   .grid {
     width: 100vw;
-    height: 100vh;
+    /* height: auto; */
     display: grid;
-    grid-template-rows: repeat(6, 50px);
-    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2.5px 2.5px;
     margin: 0 auto;
   }
 
   img {
     border-radius: 5px;
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* margin: 1px; */
   }
