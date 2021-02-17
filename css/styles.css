@@ -159,8 +159,8 @@ prebaciti na .grid */
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: repeat(4, 50px);
-    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-template-columns: repeat(4, 50px);
     grid-gap: 2.5px 2.5px;
     margin: 0 auto;
   }
