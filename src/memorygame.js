@@ -9,7 +9,6 @@ const cardArray = [
   name: "cheeseburger",
   img: "images/mama.png"
 },
-
 {
   name: "ice-cream",
   img: "images/pasa.png"
@@ -102,7 +101,6 @@ const cardArray = [
 }
 ]
 
-// const audio = new Audio("sounds/nononono-cat-mp3cut.mp3");
 const hooray_sound = new Howl({
 			src: ['sounds/16-Children Yeah.mp3']
 		});
